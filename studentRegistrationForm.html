@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>006-Student registration form.</title>
+</head>
+
+<body bgcolor="aqua">
+    <h3 align="center"><span style="text-decoration:underline">STUDENT REGISTRATION FORM</span></h3>
+    <table cellpadding="10">
+        <tr>
+            <td>FIRST NAME</td>
+            <td><input type="text" name="FIRST_NAME">(max 30 characters A-Z a-z)
+            </td>
+        </tr>
+        <tr>
+            <td>SECOND NAME</td>
+            <td><input type="text" name="SECOND_NAME">(max 30 characters A-Z a-z)
+            </td>
+        </tr>
+        <tr>
+            <td>DATE OF BIRTH</td>
+            <td><input type="date" name="DOB"></td>
+        </tr>
+        <tr>
+            <td>EMAIL ID</td>
+            <td><input type="email" name="EMAIL_ID"></td>
+        </tr>
+        <tr>
+            <td>MOBILE NUMBER</td>
+            <td><input type="number" name="MOBILE_NUMBER">(Enter 10 digit mobile number)</td>
+        </tr>
+        <tr>
+            <td>GENDER</td>
+            <td><input type="radio" name="MALE" value="MALE">MALE
+                <input type="radio" name="FEMALE" value="FEMALE">FEMALE</td>
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td><textarea name="ADDRESS" rows="4" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td>CITY</td>
+            <td><input type="text" name="CITY">(max 30 characters A-Z a-z)</td>
+        </tr>
+        <tr>
+            <td>PINCODE</td>
+            <td><input type="number" name="PINCODE">(6 digit number)</td>
+        </tr>
+        <tr>
+            <td>STATE</td>
+            <td><input type="text" name="STATE">(max 30 characters A-Z a-z)</td>
+
+        </tr>
+        <tr>
+            <td>COUNTRY</td>
+            <td><input type="text" name="COUNTRY" value="INDIA"></td>
+        </tr>
+        <tr>
+            <td>HOBBIES</td>
+            <td><input type="checkbox" name="HOBBIES" value="DRAWING">DRAWING
+                <input type="checkbox" name="HOBBIES" value="SINGING">SINGING
+                <input type="checkbox" name="HOBBIES" value="DANCING">DANCING
+                <input type="checkbox" name="HOBBIES" value="SKETCHING">SKETCHING<br>
+                <input type="checkbox" name="HOBBIES" value="OTHERS">OTHERS
+                <input type="text" name="HOBBIES">
+            </td>
+        </tr>
+        <tr>
+            <td>QUALIFICATION</td>
+            <td>
+                <table>
+                    <tr>
+                        <th>SL.NO</th>
+                        <th>EXAMINATION</th>
+                        <th>BOARD</th>
+                        <th>PERCENTAGE</th>
+                        <th>YEAR OF PASSING</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>CLASS X</td>
+                        <td><input type="text" name="CLASS_X"></td>
+                        <td><input type="text" name="CLASS_X"></td>
+                        <td><input type="text" name="CLASS_X"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>CLASS XII</td>
+                        <td><input type="text" name="CLASS_XII"></td>
+                        <td><input type="text" name="CLASS_XII"></td>
+                        <td><input type="text" name="CLASS_XII"></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>GRADUATION</td>
+                        <td><input type="text" name="GRADUATION"></td>
+                        <td><input type="text" name="GRADUATION"></td>
+                        <td><input type="text" name="GRADUATION"></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>MASTERS</td>
+                        <td><input type="text" name="MASTERS"></td>
+                        <td><input type="text" name="MASTERS"></td>
+                        <td><input type="text" name="MASTERS"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>COURSES APPLIED FOR</td>
+            <td>
+                <input type=radio name="BCA">BCA
+                <input type=radio name="B.COM">B.COM
+                <input type=radio name="B.Sc">B.Sc
+                <input type=radio name="B.A">B.A
+            </td>
+        </tr>
+    </table>
+    <center>
+        <input type="submit" name="SUBMIT">
+        <input type="reset" name="RESET">
+    </center>
+</body>
+
+</html>
