@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head><title>006-JavaScript freq fun</title></head>
+<body>
+
+    <script type="text/javascript">
+
+        
+        var a=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3, 2, 4, 9, 3, 2,'a','a','a','a'];
+
+        
+        function Freq(a) {
+
+            
+            var i,j;
+
+            		var max=0;
+
+		        for (i=0; i<a.length; i++)
+
+            		{
+		
+                var count=0,c;
+
+		 
+               for(j=i;j<a.length;j++)
+		
+                {
+		
+                        if(a[i]==a[j])
+
+		                        {
+
+		                            count++;
+		    
+                    }
+
+		                }
+ 
+		                if(count>max)
+		
+                {
+		
+                    max = count;
+
+		                    c = a[i];
+
+		                }
+
+		        }
+
+
+	                document.writeln(c);
+
+	                document.writeln("<br>");
+
+	                document.writeln(max);
+
+	        };
+
+        
+        Freq(a);
+
+
+    </script>
+
+</body>
+
+
+</html>
